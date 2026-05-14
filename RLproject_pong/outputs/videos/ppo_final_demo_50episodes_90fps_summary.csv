@@ -1,0 +1,2 @@
+episodes,win_rate,loss_rate,mean_reward,mean_steps,mean_successful_agent_returns,mean_alignment_error
+50,0.86,0.14,0.909736799543993,3.06,2.06,29.16411892709204
