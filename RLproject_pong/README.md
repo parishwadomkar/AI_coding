@@ -138,7 +138,7 @@ All final policy comparisons were evaluated over `300` episodes with fixed evalu
 |---|---:|---:|---:|---:|
 | `heuristic_predictive` | `0.9967` | `1.6534` | `0.9967` | `8.7267` |
 | `ppo_final` | `0.8167` | `0.8271` | `0.6333` | `2.1200` |
-| `ppo_best_by_win_rate` | `0.3767` | `-0.1537` | `-0.2467` | `0.7833` |
+| `ppo_terminal` | `0.3767` | `-0.1537` | `-0.2467` | `0.7833` |
 | `center` | `0.1533` | `-0.6513` | `-0.6933` | `0.2633` |
 | `top` | `0.1133` | `-0.7523` | `-0.7733` | `0.1267` |
 | `random` | `0.1067` | `-0.7579` | `-0.7867` | `0.1300` |
@@ -170,7 +170,6 @@ To produce an executable code..
 ## License
 
 GPL-3.0. See `LICENSE`.
-The project is built upon contributions by the MATSim community which are themselves licensed under the GPL License. Classes that were directly adapted from such projects contain author details, modification notices and the original license texts. 
 
 ---
 ## Contact / support
